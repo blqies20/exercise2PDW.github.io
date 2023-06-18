@@ -1,0 +1,20 @@
+body {
+    background-color: #9393ee;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header{
+    font-size: large;
+    font-family: 'Segoe UI';
+}
+
+label{
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+
+.btn-group button {
+    font-weight: bold;
+  }

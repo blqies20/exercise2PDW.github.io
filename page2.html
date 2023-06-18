@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_page2.css">
+        <title>DOM Javascript</title>
+
+    </head>
+    <header>
+        <center>
+          <div class="container">
+              <div class="header">
+                  <h1>ARMY Data</h1><br><br>
+              </div>
+          </div>
+          </center>
+    </header>
+    <body>
+       <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="your name" id="name"><br><br>
+
+             <form action="/action_page.php">
+                <label for="tanggal">Your Birthday</label><br>
+                <input type="date" id="date"><br><br>
+            </form>
+
+            <label for="region">Region</label><br>
+                <select id="region"><br>
+                    <option>Korea</option><br>
+                    <option>Japan</option><br>
+                    <option>Amerika</option><br>
+                    <option>Australia</option><br>
+                    <option>Indonesia</option><br>
+                </select><br><br>
+            
+            <label>Favorite Content</label> <br>
+            <input type="radio" name="fav" id="run" value="Run BTS">
+            <label for="content">Run BTS</label> <br>
+            <input type="radio" name="fav" id="tv" value="Bangtan TV">
+            <label for="content">Bangtan TV</label> <br>
+            <input type="radio" name="fav" id="vlive" value="V-Live">
+            <label for="content">V-Live</label> <br>
+            <input type="radio" name="fav" id="concert" value="Concert">
+            <label for="content">Concert</label> <br><br>
+                
+            <label for="">Reason</label><br>
+            <textarea placeholder="Down Below Your Reason Chosee the Option" name="reason" id="reason" cols="30" rows="5"></textarea><br><br>
+            
+            
+            </form>
+            <center>
+                <div class="btn-group" style="width: 100%">
+                    <button style="width: 50%;" type="submit" onclick="kirimData()">Send</button>
+                    <button style="width: 50%;" class="back"><a href="exe2.html">Back</a></button>
+                </div>
+            </center>
+        </div>
+        <script src="script_page2.js"></script>
+    </body>
+</html>
